@@ -1,4 +1,4 @@
-[![Live Preview](https://img.shields.io/badge/Live%20Preview-Streamlit-brightgreen?style=for-the-badge&logo=streamlit)](https://your-live-app-link.com)
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-Streamlit-brightgreen?style=for-the-badge&logo=streamlit)]([https://your-live-app-link.com](https://recommendation-system-tmdb-5000-movies.streamlit.app/))
 
 ### **Workflow with Git LFS**
 
