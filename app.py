@@ -3,9 +3,14 @@ import pickle
 import pandas as pd
 import requests
 
+import streamlit as st
+
+api= st.secrets["TMDB_API"]
+
+
 # --- Function to fetch poster from TMDb by movie title ---
 def fetch_poster_by_title(title):
-    api_key = "976b276ecf310bf8db66270ad372aecb"
+    api_key = api
     search_url = f"https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={title}"
     response = requests.get(search_url).json()
     results = response.get("results")
