@@ -1,1 +1,18 @@
-# Recommendation-System---TMDB-5000-Movies
+
+
+
+
+
+Create Virtual environment
+```bash
+python -m venv venv
+```
+Activate virtual environment
+```bash
+source venv/bin/activate
+```
+
+
+
+
+
