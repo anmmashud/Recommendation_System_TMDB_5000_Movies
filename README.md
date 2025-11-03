@@ -1,6 +1,23 @@
 
 
+### **Workflow with Git LFS**
 
+1. **Install & initialize**
+
+```bash
+sudo apt install git-lfs
+git lfs install
+```
+
+2. **Track a large file**
+
+```bash
+git lfs track "filename"
+git add .gitattributes
+git add filename
+git commit -m "Add large file via LFS"
+git push origin main
+```
 
 
 Create Virtual environment
